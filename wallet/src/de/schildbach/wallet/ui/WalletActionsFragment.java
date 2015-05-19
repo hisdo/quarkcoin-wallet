@@ -26,7 +26,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
-import hashengineering.quarkcoin.wallet.R;
+import hashengineering.dimecoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

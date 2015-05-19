@@ -10,8 +10,3 @@ Thumbs.db
 production/
 lib/
 out/
-.bak
-gen-external-apklibs
-gen/
-.DS_Store
-*.apk

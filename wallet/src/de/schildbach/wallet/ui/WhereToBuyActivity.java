@@ -28,7 +28,7 @@ import com.actionbarsherlock.view.MenuItem;
 import com.google.bitcoin.core.VersionMessage;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
-import hashengineering.quarkcoin.wallet.R;
+import hashengineering.dimecoin.wallet.R;
 
 import java.io.IOException;
 import java.io.OutputStream;

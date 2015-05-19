@@ -40,7 +40,7 @@ import de.schildbach.wallet.ui.SendCoinsQrActivity;
 import de.schildbach.wallet.ui.WalletActivity;
 import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.WalletUtils;
-import hashengineering.quarkcoin.wallet.R;
+import hashengineering.dimecoin.wallet.R;
 
 
 /**

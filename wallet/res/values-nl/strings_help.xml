@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			Het deel van het scherm links boven geeft uw geselecteerde Quark adres weer, deze hebben andere mensen nodig om u Quarks te kunnen sturen.
+			Het deel van het scherm links boven geeft uw geselecteerde Dimecoin adres weer, deze hebben andere mensen nodig om u Dimecoins te kunnen sturen.
 			Tik aan om het adres te wijzigen.
 		</p>
 		<p>
-			De QR-code rechts bevat uw Quark adres en kan gebruikt worden om in te scannen door anderen.
+			De QR-code rechts bevat uw Dimecoin adres en kan gebruikt worden om in te scannen door anderen.
 			Tik op de QR-code om een grotere versie weer te geven.
 		</p>
 		<p>
@@ -23,7 +23,7 @@
 			Schuif naar links of rechts om filters toe te passen.
 		</p>
 		<p>
-			U kunt Quarks verzenden of verzoeken door de knoppen in de actie-balk aan te klikken.
+			U kunt Dimecoins verzenden of verzoeken door de knoppen in de actie-balk aan te klikken.
 			Meer opties zijn beschikbaar in het opties-menu.
 		</p>
 	]]>
@@ -31,18 +31,18 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Deze dialoog kunt u gebruiken om Quarks te verzoeken van iemand anders (die ook Quark Wallet of een andere Quark client geinstalleerd heeft).
+			Deze dialoog kunt u gebruiken om Dimecoins te verzoeken van iemand anders (die ook Dimecoin Wallet of een andere Dimecoin client geinstalleerd heeft).
 		</p>
 		<p>
-			Als eerste geeft u een Quark bedrag aan wat u wilt verzoeken.
+			Als eerste geeft u een Dimecoin bedrag aan wat u wilt verzoeken.
 		</p>
 		<p>
 			Daarna kan de andere persoon de QR-code scannen.
 			Of u kunt uw verzoek met de \'delen\'-knop versturen.
-			De andere persoon dient op de Quark URL te klikken.
+			De andere persoon dient op de Dimecoin URL te klikken.
 		</p>
 		<p>
-			De andere persoon zal nu de dialoog te zien krijgen voor het verzenden van Quarks waarin alle velden ingevuld zijn.
+			De andere persoon zal nu de dialoog te zien krijgen voor het verzenden van Dimecoins waarin alle velden ingevuld zijn.
 			Als er akkoord gegaan word met de transactie hoeft deze alleen nog verzonden te worden.
 		</p>
 	]]>
@@ -50,16 +50,16 @@
 	<string name="help_send_coins">
 <![CDATA[
 		<p>
-			U heeft het dialoog gestart om Quarks te verzenden.
-			U bent hier terecht gekomen via het hoofd scherm of door het klikken op een Quark URL in uw browser.
+			U heeft het dialoog gestart om Dimecoins te verzenden.
+			U bent hier terecht gekomen via het hoofd scherm of door het klikken op een Dimecoin URL in uw browser.
 		</p>
 		<p>
-			Als eerste geeft u het Quark adres in waar naar u wilt betalen.
+			Als eerste geeft u het Dimecoin adres in waar naar u wilt betalen.
 			Het adres zal automatisch aangevuld worden als deze bekend is in het adresboek.
-			U kan ook QR-codes scannen met een Quark adres of verzoek door op de QR knop in de actie-balk te klikken.
+			U kan ook QR-codes scannen met een Dimecoin adres of verzoek door op de QR knop in de actie-balk te klikken.
 		</p>
 		<p>
-			Vervolgens kunt u zien hoe veel Quarks op dit moment beschikbaar zijn voor besteding.
+			Vervolgens kunt u zien hoe veel Dimecoins op dit moment beschikbaar zijn voor besteding.
 			Het eventuele verschil met het saldo van het hoofdscherm is nog onbevestigd en kan dus nog niet worden uitgegeven.
 		</p>
 		<p>
@@ -67,7 +67,7 @@
 		</p>
 		<p>
 			U kunt ook transacties ingeven terwijl u offline bent.
-			Deze transacties zullen verzonden worden zodra Quark Wallet de volgende keer gestart wordt en online is.
+			Deze transacties zullen verzonden worden zodra Dimecoin Wallet de volgende keer gestart wordt en online is.
 			Als u wenst dat uw transacties zo snel mogelijk verwerkt worden is het verstandig om verbonden te zijn met een zo goed mogelijke internet verbinding (d.w.z. op WLAN).
 		</p>
 		<p>
@@ -80,20 +80,20 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			<b>Enkele woorden over de veiligheid van uw Quarks:</b>
+			<b>Enkele woorden over de veiligheid van uw Dimecoins:</b>
 		</p>
 		<p>
-			Quarks in Quark Wallet zijn opgeslagen op het apparaat.
-			<b>Als u uw apparaat verliest zullen deze Quarks ook verloren zijn.</b>
+			Dimecoins in Dimecoin Wallet zijn opgeslagen op het apparaat.
+			<b>Als u uw apparaat verliest zullen deze Dimecoins ook verloren zijn.</b>
 			Vergelijkbaar met het verlies van uw portemonnee.
 		</p>
 		<p>
-			<b>Voor het verwijderen van Quark Wallet</b> (of verschonen van app data of wipe van het apparaat), <b>dient u de Quarks over te zetten naar een andere wallet.</b>.
-			Overblijvende Quarks zullen verloren gaan.
+			<b>Voor het verwijderen van Dimecoin Wallet</b> (of verschonen van app data of wipe van het apparaat), <b>dient u de Dimecoins over te zetten naar een andere wallet.</b>.
+			Overblijvende Dimecoins zullen verloren gaan.
 		</p>
 		<p>
-			<b>Transacties met Quark kunnen niet ongedaan gemaakt worden</b>.
-			Als u Quarks naar een onbekend adres stuurt zijn ze onmogelijk terug te krijgen tenzij u de eigenaar kent en deze bereid is de Quarks terug te sturen.
+			<b>Transacties met Dimecoin kunnen niet ongedaan gemaakt worden</b>.
+			Als u Dimecoins naar een onbekend adres stuurt zijn ze onmogelijk terug te krijgen tenzij u de eigenaar kent en deze bereid is de Dimecoins terug te sturen.
 		</p>
 		<p>
 			<b>Houd uw Android apparaat veilig!</b>
@@ -102,7 +102,7 @@
 		</p>
 		<p>
 			Houd het risico laag!
-			<b>Gebruik Quark Wallet alleen voor kleine bedragen</b> voor dagelijks gebruik.
+			<b>Gebruik Dimecoin Wallet alleen voor kleine bedragen</b> voor dagelijks gebruik.
 		</p>
 	]]>
 	</string>

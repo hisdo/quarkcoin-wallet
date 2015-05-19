@@ -1,20 +1,20 @@
-Quark'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Quark cüzdanı ilk mobil Quark uygulamasıdır ve muhtemelen en güvenli Quark uygulamasıdır!
+Dimecoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Dimecoin cüzdanı ilk mobil Dimecoin uygulamasıdır ve muhtemelen en güvenli Dimecoin uygulamasıdır!
 
 İŞLEVLERİ:
 • Hiçbir oturuma, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
-• Quark meblağlarının BTC ve mBTC olarak gösterilmesi.
+• Dimecoin meblağlarının BTC ve mBTC olarak gösterilmesi.
 • Dövizlere ve dövizlerden dönüştürme.
-• NFC, QR kodu veya Quark bağlantıları ile Quark gönderir ve alır.
-• Sık kullanılan Quark adresleri için adres defteri içerir.
+• NFC, QR kodu veya Dimecoin bağlantıları ile Dimecoin gönderir ve alır.
+• Sık kullanılan Dimecoin adresleri için adres defteri içerir.
 • Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.
-• Alınan Quark'ler için sistem bildirimleri.
-• Quark bakiyesini görüntüleyen widget.
+• Alınan Dimecoin'ler için sistem bildirimleri.
+• Dimecoin bakiyesini görüntüleyen widget.
 
-Quark hakkında daha fazla bilgi için şu siteyi ziyaret edebilirsiniz:
+Dimecoin hakkında daha fazla bilgi için şu siteyi ziyaret edebilirsiniz:
 http://www.qrk.cc/
 
-Quark Wallet uygulamasına katkıda bulunmak istiyorsanız proje sayfasını ziyaret ediniz:
-https://github.com/HashEngineering/quarkcoin-wallet
+Dimecoin Wallet uygulamasına katkıda bulunmak istiyorsanız proje sayfasını ziyaret ediniz:
+https://github.com/HashEngineering/Dimecoin-wallet
 
 Lisans: GPLv3
 Tüm riski siz üstlenmiş olursunuz.

@@ -15,14 +15,6 @@
 		<version>1</version>
 	</parent>
 
-	<licenses>
-		<license>
-			<name>Apache License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>
-		</license>
-	</licenses>
-
 	<dependencies>
 
 		<!-- android.*, java.*, javax.* -->
@@ -37,14 +29,7 @@
 		<dependency>
 			<groupId>de.schildbach.wallet</groupId>
 			<artifactId>integration-android</artifactId>
-			<version>2.0</version>
-		</dependency>
-
-		<!-- com.google.bitcoin.* -->
-		<dependency>
-			<groupId>com.google</groupId>
-			<artifactId>bitcoinj</artifactId>
-			<version>0.11.1</version>
+			<version>1.0</version>
 		</dependency>
 
 	</dependencies>

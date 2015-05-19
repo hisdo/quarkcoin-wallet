@@ -78,9 +78,8 @@ import de.schildbach.wallet.util.BitmapFragment;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.Qr;
 import de.schildbach.wallet.util.WalletUtils;
-import hashengineering.quarkcoin.wallet.R;
+import hashengineering.dimecoin.wallet.R;
 import de.schildbach.wallet.util.ThrottlingWalletChangeListener;
-
 
 
 /**
@@ -200,8 +199,7 @@ public class TransactionsListFragment extends SherlockListFragment implements Lo
 		wallet.removeEventListener(transactionChangeListener);
 		transactionChangeListener.removeCallbacks();
 
-        loaderManager.destroyLoader(0);
-
+		loaderManager.destroyLoader(0);
 
 		config.unregisterOnSharedPreferenceChangeListener(this);
 
@@ -308,11 +306,10 @@ public class TransactionsListFragment extends SherlockListFragment implements Lo
 						return true;
 
 					case R.id.wallet_transactions_context_browse:
-						startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + Constants.EXPLORE_TRANSACTION_PATH + tx.getHashAsString())));
+						startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + "tx/info/" + tx.getHashAsString())));
+
 						mode.finish();
 						return true;
-                    case R.id.wallet_transactions_context_show_transaction:
-                        TransactionActivity.show(activity, tx);
 				}
 				return false;
 			}
@@ -414,14 +411,18 @@ public class TransactionsListFragment extends SherlockListFragment implements Lo
 			final Set<Transaction> transactions = wallet.getTransactions(true);
 			final List<Transaction> filteredTransactions = new ArrayList<Transaction>(transactions.size());
 
-			for (final Transaction tx : transactions)
+			try
 			{
-				final boolean sent = tx.getValue(wallet).signum() < 0;
-				final boolean isInternal = WalletUtils.isInternal(tx);
-
-				if ((direction == Direction.RECEIVED && !sent && !isInternal) || direction == null
-						|| (direction == Direction.SENT && sent && !isInternal))
-					filteredTransactions.add(tx);
+				for (final Transaction tx : transactions)
+				{
+					final boolean sent = tx.getValue(wallet).signum() < 0;
+					if ((direction == Direction.RECEIVED && !sent) || direction == null || (direction == Direction.SENT && sent))
+						filteredTransactions.add(tx);
+				}
+			}
+			catch (final ScriptException x)
+			{
+				throw new RuntimeException(x);
 			}
 
 			Collections.sort(filteredTransactions, TRANSACTION_COMPARATOR);
@@ -436,8 +437,7 @@ public class TransactionsListFragment extends SherlockListFragment implements Lo
 			{
 				try
 				{
-
-					forceLoad();
+				forceLoad();
 				}
 				catch (final RejectedExecutionException x)
 				{

@@ -10,7 +10,7 @@
 			android:title="Copyright" />
         <Preference
                 android:summary="Version 0.8.3.15 (v0.8.3.15-g09e437b-beta) and above"
-                android:title="Quark Compatibility" />
+                android:title="Dimecoin Compatibility" />
 		<Preference
 			android:key="about_license"
 			android:title="@string/about_license_title" />

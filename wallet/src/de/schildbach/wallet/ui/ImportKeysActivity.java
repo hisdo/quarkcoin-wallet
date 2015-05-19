@@ -44,7 +44,7 @@ import com.google.bitcoin.core.Wallet;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.Crypto;
 import de.schildbach.wallet.util.WalletUtils;
-import hashengineering.quarkcoin.wallet.R;
+import hashengineering.dimecoin.wallet.R;
 
 /**
  * @author Andreas Schildbach
@@ -216,7 +216,7 @@ public final class ImportKeysActivity extends AbstractWalletActivity
 			}
 			else
 			{
-				dialog.singleDismissButton(finishListener);
+				dialog.setNeutralButton(R.string.button_dismiss, finishListener);
 			}
 			dialog.setOnCancelListener(finishListener);
 			dialog.show();
@@ -225,7 +225,9 @@ public final class ImportKeysActivity extends AbstractWalletActivity
 		}
 		catch (final IOException x)
 		{
-			final DialogBuilder dialog = DialogBuilder.warn(this, R.string.import_export_keys_dialog_failure_title);
+			final DialogBuilder dialog = new DialogBuilder(this);
+			dialog.setIcon(R.drawable.ic_menu_warning);
+			dialog.setTitle(R.string.import_export_keys_dialog_failure_title);
 			dialog.setMessage(getString(R.string.import_keys_dialog_failure, x.getMessage()));
 			dialog.setPositiveButton(R.string.button_dismiss, finishListener).setOnCancelListener(finishListener);
 			dialog.setNegativeButton(R.string.button_retry, new DialogInterface.OnClickListener()

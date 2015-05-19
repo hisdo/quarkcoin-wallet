@@ -19,10 +19,6 @@ package de.schildbach.wallet.ui;
 
 import javax.annotation.Nonnull;
 
-import android.content.DialogInterface;
-import com.google.bitcoin.core.ECKey;
-import de.schildbach.wallet.Constants;
-import de.schildbach.wallet.PaymentIntent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,7 +30,7 @@ import android.widget.Toast;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 
 import de.schildbach.wallet.WalletApplication;
-import hashengineering.quarkcoin.wallet.R;
+import hashengineering.dimecoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

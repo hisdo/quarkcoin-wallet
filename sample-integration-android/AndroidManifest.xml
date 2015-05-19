@@ -4,7 +4,7 @@
 	android:versionCode="1"
 	android:versionName="1.0" >
 
-	<uses-sdk android:minSdkVersion="10" />
+	<uses-sdk android:minSdkVersion="7" />
 
 	<uses-feature
 		android:name="android.hardware.touchscreen"
@@ -16,8 +16,7 @@
 		android:normalScreens="true"
 		android:smallScreens="true" />
 
-
-	<application android:label="Quark in-app payment sample" >
+	<application android:label="Sample for Dimecoin Integration" >
 		<activity
 			android:name="de.schildbach.wallet.integration.sample.SampleActivity"
 			android:theme="@android:style/Theme.Light" >

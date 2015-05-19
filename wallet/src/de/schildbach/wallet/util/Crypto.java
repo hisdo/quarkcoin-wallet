@@ -23,7 +23,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.security.SecureRandom;
-import java.util.Arrays;
 
 import javax.annotation.Nonnull;
 
@@ -162,11 +161,12 @@ public class Crypto
 			final BufferedBlockCipher cipher = new PaddedBufferedBlockCipher(new CBCBlockCipher(new AESFastEngine()));
 			cipher.init(true, key);
 			final byte[] encryptedBytes = new byte[cipher.getOutputSize(plainTextAsBytes.length)];
-			final int processLen = cipher.processBytes(plainTextAsBytes, 0, plainTextAsBytes.length, encryptedBytes, 0);
-			final int doFinalLen = cipher.doFinal(encryptedBytes, processLen);
+			final int length = cipher.processBytes(plainTextAsBytes, 0, plainTextAsBytes.length, encryptedBytes, 0);
+
+			cipher.doFinal(encryptedBytes, length);
 
 			// The result bytes are the SALT_LENGTH bytes followed by the encrypted bytes.
-			return concat(salt, Arrays.copyOf(encryptedBytes, processLen + doFinalLen));
+			return concat(salt, encryptedBytes);
 		}
 		catch (final InvalidCipherTextException x)
 		{
@@ -232,10 +232,11 @@ public class Crypto
 			cipher.init(false, key);
 
 			final byte[] decryptedBytes = new byte[cipher.getOutputSize(cipherBytes.length)];
-			final int processLen = cipher.processBytes(cipherBytes, 0, cipherBytes.length, decryptedBytes, 0);
-			final int doFinalLen = cipher.doFinal(decryptedBytes, processLen);
+			final int length = cipher.processBytes(cipherBytes, 0, cipherBytes.length, decryptedBytes, 0);
 
-			return Arrays.copyOf(decryptedBytes, processLen + doFinalLen);
+			cipher.doFinal(decryptedBytes, length);
+
+			return decryptedBytes;
 		}
 		catch (final InvalidCipherTextException x)
 		{

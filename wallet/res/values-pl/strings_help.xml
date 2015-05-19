@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres Quark, który inne osoby muszą znać żeby wysłać Ci Quark.
+			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres Dimecoin, który inne osoby muszą znać żeby wysłać Ci Dimecoin.
 			Naciśnij żeby, go zmienić.
 		</p>
 		<p>
-			Kod QR po prawej zawiera Twój adres Quark i może zeskanowany przez inną osobę.
+			Kod QR po prawej zawiera Twój adres Dimecoin i może zeskanowany przez inną osobę.
 			Naciśnij na kod QR żeby otrzymać jego większą wersje.
 		</p>
 		<p>
@@ -31,18 +31,18 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Przy pomocy tego dialogu, możesz wysłać prośbę o Quarky do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany Quark Wallet.
+			Przy pomocy tego dialogu, możesz wysłać prośbę o Dimecoiny do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany Dimecoin Wallet.
 		</p>
 		<p>
-			U góry, wpisz kwotę Quark, o którą chcesz zapytać.
+			U góry, wpisz kwotę Dimecoin, o którą chcesz zapytać.
 		</p>
 		<p>
 			Potem osoba wczyta wytworzony kod QR,
 			albo Ty możesz wysłać rachunek za pomocą guzika Opublikuj na listwie menu.
-			Odbiorca będzie musiał otworzyć Quark URL zawarty w wysłanej wiadomości.
+			Odbiorca będzie musiał otworzyć Dimecoin URL zawarty w wysłanej wiadomości.
 		</p>
 		<p>
-			Osoba, która otrzymała wysłane zapytanie otrzyma gotowy i wypełniony formularz wysyłania Quarków.
+			Osoba, która otrzymała wysłane zapytanie otrzyma gotowy i wypełniony formularz wysyłania Dimecoinów.
 			Jedyne co będzie musiała zrobić to potwierdzenie transakcji.
 		</p>
 	]]>
@@ -51,15 +51,15 @@
 <![CDATA[
 		<p>
 			Zainicjowałeś proces wysyłania monet.
-			Przyszedłeś tutaj przez główny ekran albo naciskając na Quark URL w Twojej mobilnej przeglądarce.
+			Przyszedłeś tutaj przez główny ekran albo naciskając na Dimecoin URL w Twojej mobilnej przeglądarce.
 		</p>
 		<p>
-			Wpisz adres Quark na który ma wpłynąć zapłata.
+			Wpisz adres Dimecoin na który ma wpłynąć zapłata.
 			Wyświetlone zostaną podpowiedzi adresu z danych Twojej książki adresowej.
-			Możesz też skanować kody QR z adresami Quark albo zapytaniami Quark naciskając guzik QR w menu.
+			Możesz też skanować kody QR z adresami Dimecoin albo zapytaniami Dimecoin naciskając guzik QR w menu.
 		</p>
 		<p>
-			Poniżej widzisz ile Quark możesz wydać w tym momencie.
+			Poniżej widzisz ile Dimecoin możesz wydać w tym momencie.
 			Rożnica ze stanem konta na głównym ekranie wynika z jeszcze nie potwierdzonych monet, które nie mogą jeszcze zostać wydane.
 		</p>
 		<p>
@@ -80,20 +80,20 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			<b>Pare słów o bezpieczeństwie twoich Quark:</b>
+			<b>Pare słów o bezpieczeństwie twoich Dimecoin:</b>
 		</p>
 		<p>
-			Quark w Quark Wallet są magazynowane na urządzeniu.
-			<b>Jak zgubisz swoje urządzenie, zgubisz też swój portfel i Quarky.</b>
+			Dimecoin w Dimecoin Wallet są magazynowane na urządzeniu.
+			<b>Jak zgubisz swoje urządzenie, zgubisz też swój portfel i Dimecoiny.</b>
 			Zupełnie jak pieniądze w Twoim fizycznym portfelu.
 		</p>
 		<p>
-			<b>Zanim odinstalujesz Quark Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje Quark na inny portfel</b>.
-			Każdy pozostały Quark będzie stracony.
+			<b>Zanim odinstalujesz Dimecoin Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje Dimecoin na inny portfel</b>.
+			Każdy pozostały Dimecoin będzie stracony.
 		</p>
 		<p>
 			<b>Żadne transakcje nie mogą zostać cofnięte</b>.
-			Jeżeli wyślesz swoje Quarky, nie będzie już możliwości żeby je odzyskać, dopóki nie znasz odbiorcy, który musi godzić się na ich odesłanie.
+			Jeżeli wyślesz swoje Dimecoiny, nie będzie już możliwości żeby je odzyskać, dopóki nie znasz odbiorcy, który musi godzić się na ich odesłanie.
 		</p>
 		<p>
 			<b>Uważaj na swoje urządzenie Android!</b>
@@ -102,7 +102,7 @@
 		</p>
 		<p>
 			Utrzymuj niskie ryzyko!
-			<b>Używaj Quark Wallet do przetrzymywania jedynie małych ilości Quark</b> do użytku codziennego.
+			<b>Używaj Dimecoin Wallet do przetrzymywania jedynie małych ilości Dimecoin</b> do użytku codziennego.
 		</p>
 	]]>
 	</string>

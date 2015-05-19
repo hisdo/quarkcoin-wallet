@@ -17,17 +17,14 @@
 
 package de.schildbach.wallet.ui;
 
-import javax.annotation.Nullable;
-
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface.OnClickListener;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import hashengineering.quarkcoin.wallet.R;
+import hashengineering.dimecoin.wallet.R;
 
 /**
  * @author Andreas Schildbach
@@ -37,14 +34,6 @@ public class DialogBuilder extends AlertDialog.Builder
 	private final View customTitle;
 	private final ImageView iconView;
 	private final TextView titleView;
-
-	public static DialogBuilder warn(final Context context, final int titleResId)
-	{
-		final DialogBuilder builder = new DialogBuilder(context);
-		builder.setIcon(R.drawable.ic_menu_warning);
-		builder.setTitle(titleResId);
-		return builder;
-	}
 
 	public DialogBuilder(final Context context)
 	{
@@ -71,12 +60,12 @@ public class DialogBuilder extends AlertDialog.Builder
 	}
 
 	@Override
-	public DialogBuilder setIcon(final int iconResId)
+	public DialogBuilder setIcon(final int iconId)
 	{
-		if (iconResId != 0)
+		if (iconId != 0)
 		{
 			setCustomTitle(customTitle);
-			iconView.setImageResource(iconResId);
+			iconView.setImageResource(iconId);
 			iconView.setVisibility(View.VISIBLE);
 		}
 
@@ -96,19 +85,19 @@ public class DialogBuilder extends AlertDialog.Builder
 	}
 
 	@Override
-	public DialogBuilder setTitle(final int titleResId)
+	public DialogBuilder setTitle(final int titleId)
 	{
-		if (titleResId != 0)
+		if (titleId != 0)
 		{
 			setCustomTitle(customTitle);
-			titleView.setText(titleResId);
+			titleView.setText(titleId);
 		}
 
 		return this;
 	}
 
 	@Override
-	public DialogBuilder setMessage(final CharSequence message)
+	public DialogBuilder setMessage(CharSequence message)
 	{
 		super.setMessage(message);
 
@@ -116,16 +105,9 @@ public class DialogBuilder extends AlertDialog.Builder
 	}
 
 	@Override
-	public DialogBuilder setMessage(final int messageResId)
+	public DialogBuilder setMessage(int messageId)
 	{
-		super.setMessage(messageResId);
-
-		return this;
-	}
-
-	public DialogBuilder singleDismissButton(@Nullable final OnClickListener dismissListener)
-	{
-		setNeutralButton(R.string.button_dismiss, dismissListener);
+		super.setMessage(messageId);
 
 		return this;
 	}

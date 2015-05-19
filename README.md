@@ -1,4 +1,4 @@
-Welcome to _Quark Wallet_, a standalone Quark payment app for your Android device!
+Welcome to _Dimecoin Wallet_, a standalone Dimecoin payment app for your Android device!
 
 This project contains several sub-projects:
 
@@ -15,4 +15,4 @@ This project contains several sub-projects:
 
 You can build all sub-projects at once using Maven:
 
-`mvn clean install -DskipTests`
+`mvn clean install`
